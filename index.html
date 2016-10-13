@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Все рецепты</title>
+</head>
+<body>
+    <div class="allrecipe__wrapper-box">
+        <div class="allrecipe__wrapper-box__header"></div>
+        <div class="allrecipe__wrapper-box__content">
+            <div class="allrecipe__wrapper-box__content__title">Все рецепты от <a href="#">Партии еды</a></div>
+            <div class="allrecipe__wrapper-box__content__pre-title">За всё время у нас накопилось <span class="recipe-cnt">1578</span> рецептов</div>
+            <div class="allrecipe__wrapper-box__content__filters">
+                <div class="filters__title">Используйте фильтры для поиска подходящих рецептов:</div>
+                <div class="filters__content-filter">
+                    <div class="filters__line">
+                        <select class="filter-eat type-eat">
+                            <option disabled selected>Тип блюда</option>
+                            <option>Ужин</option>
+                            <option>Завтрак</option>
+                            <option>Десерт</option>
+                        </select>
+                        <select class="filter-eat time-eat">
+                            <option disabled selected>Время приготовления</option>
+                            <option>30 мин</option>
+                            <option>60 мин</option>
+                            <option>90 мин</option>
+                        </select>
+                        <select class="filter-eat who-eat">
+                            <option disabled selected>Для кого подходит</option>
+                            <option>Вегетарианец</option>
+                            <option>Спортсмен</option>
+                            <option>Ребёнок</option>
+                        </select>
+                        <select class="filter-eat who-eat">
+                            <option disabled selected>Для кого подходит</option>
+                            <option>Вегетарианец</option>
+                            <option>Спортсмен</option>
+                            <option>Ребёнок</option>
+                        </select>
+                    </div>
+                    <div class="filters__line">
+                        <select class="filter-eat time-eat">
+                            <option disabled selected>Время приготовления</option>
+                            <option>30 мин</option>
+                            <option>60 мин</option>
+                            <option>90 мин</option>
+                        </select>
+                        <select class="filter-eat type-cook">
+                            <option disabled selected>Типы кухни</option>
+                            <option>30 мин</option>
+                            <option>60 мин</option>
+                            <option>90 мин</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filters__content__result-search">
+                    <div class="result-search__title">
+                        <div class="result-search__text-result">Вы ищите завтраки на 20-30 минту для вегетарианца</div>
+                        <button type="submit" class="view-recipes-btn">Показать72 рецепта</button>
+                    </div>
+                    <div class="result-search__content">
+                        <div class="result-search__content__photo-line">
+                            <div class="photo-line__about-recipe">
+                                <img src="img/photo-result1.png">
+                                <div class="about-text-recipe">
+                                    Куриный шницель, маринованный в соусе
+                                    терияки, с кунжутной корочкой и салатом
+                                </div>
+                            </div>
+                            <div class="photo-line__about-recipe">
+                                <img src="img/photo-result2.png">
+                                <div class="about-text-recipe">
+                                    Индейка в медово-чесночном маринаде
+                                    с манговым соусом и рисом
+                                </div>
+                            </div>
+                            <div class="photo-line__about-recipe">
+                                <img src="img/photo-result4.png">
+                                <div class="about-text-recipe">
+                                    Кюфта из рубленой говядины с восточным
+                                    соусом и свежими овощами
+                                </div>
+                            </div>
+                            <div class="photo-line__about-recipe">
+                                <img src="img/photo-result2.png">
+                                <div class="about-text-recipe">
+                                    Пряные куриные крылышки с рисом
+                                    и овощами
+                                </div>
+                            </div>
+                            <div class="photo-line__about-recipe">
+                                <img src="img/photo-result5.png">
+                                <div class="about-text-recipe">
+                                    Пряные куриные крылышки с рисом
+                                    и овощами
+                                </div>
+                            </div>
+                            <div class="photo-line__about-recipe">
+                                <img src="img/photo-result3.png">
+                                <div class="about-text-recipe">
+                                    Black тальятелле с колбасками пекорино,
+                                    свежей зеленью и печеными овощами
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-more">
+                        <button class="view-more-btn">Показать ещё 20 результатов</button>
+                    </div>
+                    <div class="result-search__also-like">
+                        <div class="also-like__title">Мы подобрали для вас рецепты, которые также могут вам понравиться</div>
+
+                        <div class="result-search__content__photo-line">
+                            <div class="photo-line__about-recipe">
+                                <img src="img/also-like-img.png">
+                            </div>
+                            <div class="photo-line__about-recipe">
+                                <img src="img/also-like-img.png">
+
+                            </div>
+                            <div class="photo-line__about-recipe">
+                                <img src="img/also-like-img.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <div class="eat-subscribe-block">
+                <div class="eat-subscribe">
+                    <div class="social__block delivery">
+                        <div class="social__block__title">Вкусная рассылка</div>
+                        <div class="social__block__content">
+                        <div class="subscribe">
+                            <form>
+                                <input type="text" class="user-name" placeholder="Ваше имя">
+                                <div class="subscribe-block">
+                                    <input type="email" placeholder="Электронная почта">
+                                    <button type="submit">Подписаться</button>
+                                </div>
+                            </form>
+                        </div>
+                        </div>
+                        <div class="social__block__mini-title subscribe-mini-title">Подпишитесь на рассылку и получайте подборку новых<br> проверенных рецептов от Партии еды себе на почут.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="eat-slider">
+                <!-- Здесь будет слайдер  -->
+            </div>
+        <div class="allrecipe__wrapper-box__footer"></div>
+    </div>
+    <script src="script/swiper.jquery.min.js"></script>
+    <script src="script/swiper.min.js"></script>
+    <script src="script/configure-slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+.allrecipe__wrapper-box__content {
+    margin-top: 90px;
+}
+
+.allrecipe__wrapper-box__content__title {
+    text-align: center;
+    font-size: 40px;
+    color: #222222;
+}
+
+.allrecipe__wrapper-box__content__title a {
+    color: #222222;
+    font-size: 45px;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2px solid #9a9a9a;
+}
+
+.allrecipe__wrapper-box__content__pre-title {
+    text-align: center;
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+.recipe-cnt {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.allrecipe__wrapper-box__content__filters {
+    background: #f8f8f8;
+    margin-left: 19px;
+    margin-top: 50px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.filters__title {
+    padding-left: 20px;
+}
+
+.filters__line {
+    margin-top: 30px;
+}
+
+.filter-eat:first-child {
+    margin-left: 20px;
+}
+
+.filter-eat {
+    border: 1px solid #d4d4d4;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 40px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    padding-left: 10px;
+    color: #222222;
+}
+
+.filters__content__result-search {
+    margin-top: 50px;
+    background: #fff;
+}
+
+.result-search__title {
+    text-align: center;
+}
+
+.result-search__text-result {
+    font-size: 18px;
+    color: #222222;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+
+}
+
+.view-recipes-btn {
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    background: #159a15;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 270px;
+    margin-left: 150px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.result-search__content__photo-line {
+    margin-top: 30px;
+}
+
+.result-search__content {
+    margin-bottom: 30px;
+}
+
+.photo-line__about-recipe {
+    width: 401px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 7px;
+    vertical-align: top;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.photo-line__about-recipe img {
+    height: 100%;
+    width: 100%;
+}
+
+.about-text-recipe {
+    padding-left: 8px;
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-color: #999999;
+}
+
+.view-more {
+    height: 40px;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #eaeaea;
+    margin-right: 25px;
+    margin-left: 5px;
+}
+
+.view-more-btn {
+    display: block;
+    margin: 0 auto;
+    width: 271px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    font-size: 14px;
+    color: #159a15;
+    border: 1px solid;
+    border-color: #159a15;
+}
+
+.result-search__also-like{
+    margin-top: 40px;
+}
+
+.also-like__title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.eat-subscribe-block {
+    height: 270px;
+}
+
+.eat-subscribe {
+    margin: 0 auto;
+    width: 462px;
+    height: 217px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+
+
+.social__block {
+    display: block;
+    width: 462px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    height: 217px;
+    background: #f8f8f8;
+}
+
+
+
+.social__block:last-child {
+    margin-left: 13px;
+}
+
+.social__block__title {
+    font-size: 20px;
+    color: #222222;
+    padding-left: 19px;
+    padding-top: 20px;
+}
+
+.social__block__mini-title {
+    font-size: 14px;
+    color: #222222;
+    padding-left: 19px;
+    padding-top: 18px;
+}
+
+.social__block__content {
+    margin-top: 13px;
+}
+
+.subscribe {
+    font-size: 14px;
+}
+
+.user-name {
+    height: 40px;
+    width:  125px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    border: 1px solid #cecece;
+    outline: none;
+    vertical-align: top;
+    padding-left: 15px;
+}
+
+.subscribe input:first-child {
+    margin-left: 19px;
+    margin-right: 12px;
+}
+
+.subscribe-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+}
+
+.subscribe-block input{
+    display: inline-block;
+    vertical-align: top;
+    width: 133px;
+    height: 40px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    border: 1px solid #cecece;
+    outline: none;
+    padding-left: 15px;
+}
+
+.subscribe-block button     {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    height: 46px;
+    width: 106px;
+    margin-left: -3px;
+    margin-top: -1px;
+    border: none;
+    border: 1px solid #fff;
+    border-left: none;
+    color: #fff;
+    background: #159a15;
+    font-family: "Circe-Regular", sans-serif;
+    font-size: 14px;
+}
+
+.subscribe-block button:hover {
+
+}
+
+.subscribe-mini-title {
+    line-height: 24px;
+    color: #222222;
+}
+

@@ -1,0 +1,26 @@
+@import url("allrecipe-header.css");
+@import url("allrecipe-content.css");
+@import url("allrecipe-footer.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.allrecipe__wrapper-box {
+    width: 1280px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+.eat-slider {
+    width: 1278px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
